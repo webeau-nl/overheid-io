@@ -49,3 +49,10 @@ $data = $ovio->searchBy('merk', 'bmw');
 
 ```
 
+
+## Repo by Webeau
+[Visit our website](https://webeau.nl)
+
+## License
+
+The MIT License (MIT).
