@@ -41,6 +41,20 @@ class Kvk extends Ovio
     }
 
     /**
+     * Simple search kvk database
+     *
+     * Example:
+     * $ovio->searchBy('postcode', '3083cz');
+     *
+     * @param string $key
+     * @param string $value
+     * @return \stdClass|null
+     */
+    public function searchBy($key, $value) {
+        return $this->search(['filter' => [$key => $value]]);
+    }
+
+    /**
      * Get suggestions for given search string
      *
      * Example:
