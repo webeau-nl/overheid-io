@@ -49,6 +49,24 @@ $data = $ovio->searchBy('merk', 'bmw');
 
 ```
 
+### Example paging (all APIs)
+
+```php
+$data = $ovio->search([
+	'filter' => ['merk' => 'bmw'],
+	'order' => 'desc',
+	'page' => 1
+]);
+ 
+// After performing api call you can use
+// $ovio->next();
+// $ovio->prev();
+// $ovio->first();
+// $ovio->last();
+// to fetch next page
+ 
+$data = $ovio->next();
+```
 
 ## Repo by Webeau
 [Visit our website](https://webeau.nl)
