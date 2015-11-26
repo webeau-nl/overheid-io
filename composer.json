@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webeau\\Ovio\\": "src/Api"
+            "Webeau\\Ovio\\": "src/Api/"
         }
     }
 }
