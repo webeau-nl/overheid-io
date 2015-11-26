@@ -2,7 +2,7 @@
     "name": "webeau/overheid-io",
     "description": "PHP wrapper for Overheid.io",
     "homepage": "https://github.com/webeaunl/overheid-io",
-    "keywords": ["overheid.io", "ovio", "kvk", "api"],
+    "keywords": ["overheid.io", "ovio", "kvk", "rdw", "api"],
     "license": "MIT",
     "authors": [
         {

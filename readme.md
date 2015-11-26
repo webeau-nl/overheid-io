@@ -2,7 +2,7 @@
 
 Require this package via composer.
 
-	composer require webeaunl/overheid-io
+	composer require webeau/overheid-io
 
 
 For all options visit: https://overheid.io/documentatie
