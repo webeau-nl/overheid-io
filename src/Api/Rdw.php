@@ -10,7 +10,7 @@ class Rdw extends Ovio
      * Fetch information by car number
      *
      * Example:
-     * $ovio->get('123123');
+     * $ovio->get('AB-12-CD');
      *
      * @param $vrn
      * @return \stdClass|null
