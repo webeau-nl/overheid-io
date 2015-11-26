@@ -1,0 +1,14 @@
+{
+    "name": "webeau/overheid-io",
+    "description": "PHP wrapper for Overheid.io",
+    "homepage": "https://github.com/webeaunl/overheid-io",
+    "keywords": ["overheid.io", "ovio", "kvk", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Webeau",
+            "email": "info@webeau.nl"
+        }
+    ],
+    "require": {}
+}
