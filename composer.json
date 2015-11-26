@@ -10,5 +10,10 @@
             "email": "info@webeau.nl"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webeau\\Ovio\\": "src/Api"
+        }
+    }
 }
