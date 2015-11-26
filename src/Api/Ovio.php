@@ -4,10 +4,11 @@ namespace Webeau\Ovio;
 
 use \Exception;
 
-class Ovio
+abstract class Ovio
 {
     protected $base_url = 'https://overheid.io/';
     protected $api_key;
+    protected $api_name;
 
     public function __construct($key)
     {
